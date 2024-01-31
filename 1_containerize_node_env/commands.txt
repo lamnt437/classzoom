@@ -1,0 +1,4 @@
+cd docker/express
+docker build -t classzoom-day1 .
+docker run -p 4321:3000 classzoom-day1
+docker images

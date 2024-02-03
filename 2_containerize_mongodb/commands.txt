@@ -1,0 +1,14 @@
+docker pull mongodb
+docker images
+docker run <CONTAINER_ID>
+
+docker exec -it <MONGO_CONTAINER_ID> bash
+mongosh
+show dbs
+
+-- switch context
+use connection_db
+db.user.insert({name: 'Blake'})
+
+show dbs
+db

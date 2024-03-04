@@ -1,4 +1,4 @@
-docker pull mongodb
+docker pull mongo
 docker images
 docker run <CONTAINER_ID>
 
@@ -11,4 +11,4 @@ use connection_db
 db.user.insert({name: 'Blake'})
 
 show dbs
-db
+db.user.find()

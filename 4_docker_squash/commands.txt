@@ -1,0 +1,2 @@
+docker tag classzoom:240304 classzoom:240304
+docker push classzoom:240304

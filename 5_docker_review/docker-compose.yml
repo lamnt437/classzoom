@@ -1,0 +1,6 @@
+services:
+  stack:
+    image: node:20-alpine
+    volumes:
+      - .:/var/task
+    working_dir: /var/task
